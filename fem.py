@@ -23,7 +23,7 @@ my_A = np.asarray(A)
 for j in my_E: 
     for k in my_l:
         for r in my_A:
-            c = j*k/r  # formula of linear stifness 
+            c = j*r/k  # formula of linear stifness 
     x.append(c)
 
 arr2 = np.array([[1, -1], [-1 ,1]])   #unit matrix
